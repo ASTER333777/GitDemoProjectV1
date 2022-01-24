@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26" started-at="2022-01-24T19:09:26Z" finished-at="2022-01-24T19:09:26Z">
+  <suite name="Default suite" duration-ms="24" started-at="2022-01-24T20:29:50Z" finished-at="2022-01-24T20:29:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26" started-at="2022-01-24T19:09:26Z" finished-at="2022-01-24T19:09:26Z">
-      <class name="practice.Sample">
-        <test-method status="PASS" signature="Welcome()[pri:0, instance:practice.Sample@36d4b5c]" name="Welcome" duration-ms="7" started-at="2022-01-24T19:09:26Z" finished-at="2022-01-24T19:09:26Z">
+    <test name="Default test" duration-ms="24" started-at="2022-01-24T20:29:50Z" finished-at="2022-01-24T20:29:50Z">
+      <class name="practice.Demo">
+        <test-method status="PASS" signature="Welcome()[pri:0, instance:practice.Demo@36d4b5c]" name="Welcome" duration-ms="6" started-at="2022-01-24T20:29:50Z" finished-at="2022-01-24T20:29:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Welcome -->
-      </class> <!-- practice.Sample -->
+        <test-method status="PASS" signature="Welcome1()[pri:0, instance:practice.Demo@36d4b5c]" name="Welcome1" duration-ms="0" started-at="2022-01-24T20:29:50Z" finished-at="2022-01-24T20:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Welcome1 -->
+      </class> <!-- practice.Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
